@@ -9,27 +9,226 @@
 </head>
 <body>
 <tw-story><noscript><tw-noscript>JavaScript needs to be enabled to play Varos.</tw-noscript></noscript></tw-story>
-<tw-storydata name="Varos" startnode="1" creator="Twine" creator-version="2.3.13" ifid="EBC73EB9-9C07-4896-8D64-E3DC41A77F03" zoom="1" format="Harlowe" format-version="3.2.1" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css"></style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="Introduction" tags="" position="75,51" size="100,100">(link-reveal:&quot;It was a nice day.&quot;)[=
-(link-reveal:&quot;Sun shone bleakly through the kitchen windows, with a hint of green as it filtered through the canopies of the alder trees outside.&quot;)[=
-(link-reveal:&quot;Varos lay half awake, fighting to stay in that blissful state of conscious sleep.&quot;)[=
-(link-reveal:&quot;He had dreamt of sailing on the Oval Sea, wind in his hair and salt on his lips.&quot;)[=
-(link-reveal:&quot;He had almost sunk back onto those waves as a thick, phlegmy cough could be heard from the other room.&quot;)[=
-(link-reveal:&quot;He slowly pushed himself upright, feeling a couple pops in his joints.&quot;)[=
-(link-reveal:&quot;The coughing had stopped short of its usual length and there was no call for help to follow.&quot;)[=
-[[It was a nice day-&gt;2]]
+<tw-storydata name="Varos" startnode="1" creator="Twine" creator-version="2.3.13" ifid="EBC73EB9-9C07-4896-8D64-E3DC41A77F03" zoom="0.6" format="Harlowe" format-version="3.2.1" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css"></style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="1. Intro" tags="" position="162,23" size="100,100">(link-reveal:&quot;It was a nice day.&quot;)[=
 
-</tw-passagedata><tw-passagedata pid="2" name="2" tags="" position="75,201" size="100,100">Varos rose and dressed himself before entering the (link-reveal:&quot;common room.&quot;)[=
+(link-reveal:&quot;Sun shone bleakly through the kitchen windows, with a hint of green as it filtered through the canopies of the alder trees outside.&quot;)[=
+
+(link-reveal:&quot;Varos lay half awake, fighting to stay in that blissful state of conscious sleep.&quot;)[=
+
+(link-reveal:&quot;He had dreamt of sailing on the Oval Sea, wind in his hair and salt on his lips.&quot;)[=
+
+(link-reveal:&quot;He had almost sunk back onto those waves as a thick, phlegmy cough could be heard from the other room.&quot;)[=
+
+(link-reveal:&quot;He slowly pushed himself upright, feeling a couple pops in his joints.&quot;)[=
+
+(link-reveal:&quot;The coughing had stopped short of its usual length and there was no call for help to follow.&quot;)[=
+
+[[It was a nice day-&gt;2. Intro]]
+
+(set: $marielleHint to false)
+(set: $marketItem to &quot;&quot;)
+(set: $inventory to (a:))</tw-passagedata><tw-passagedata pid="2" name="2. Intro" tags="" position="159,173" size="100,100">Varos rose and dressed himself before entering the (link-reveal:&quot;common room.&quot;)[=
 
 His mother sat in her usual spot, nearby the fireplace gazing out the window.
 
-|response_1&gt;[G’morning mum, how was your sleep?]
-|response_2&gt;[Good, it was good.]
+|response_1&gt;[&quot;G’morning mum, how was your sleep?&quot;]
+|response_2&gt;[&quot;Good, it was good.&quot;]
 (hidden:)|mom_response&gt;[Her strained smile said more than her words. 
-[[Can I fix you some breakfast? -&gt; 3]]]
+[[&quot;Can I fix you some breakfast?&quot;-&gt;3. Making Breakfast]]]
 
 (click: ?response_1)[(show:?mom_response)(replace:?response_2)[]]
 (click: ?response_2)[(show:?mom_response)(replace:?response_1)[]]
-</tw-passagedata><tw-passagedata pid="3" name=" 3" tags="" position="75,351" size="100,100">He was already on his way to the kitchen. </tw-passagedata></tw-storydata>
+</tw-passagedata><tw-passagedata pid="3" name="3. Making Breakfast" tags="" position="159,305" size="100,100">He was already on his way to the kitchen. The herbs needed to quell [[Ironlung-&gt;3a. Ironlung]] were dreadfully bitter and best taken with food. Whatever heights Varos’ spirit had hit from the good morning his mother was having were quickly dashed as he rifled through the cupboard. Only enough for (link-reveal: &quot;one more dose...&quot;)[= 
+
+It wasn’t so much running out of Emmantiensien as a trip to the alchemist was hardly an inconvenience, it was the physical, quantifiable reminder of his mother’s lease on life and the fact that [[he had forgotten-&gt;4. Making Breakfast]] it; too preoccupied on his last trip to the village to stop at the alchemist and restock.</tw-passagedata><tw-passagedata pid="4" name="3a. Ironlung" tags="" position="10,376" size="100,100">A disease with an unknown origin, Ironlung ravages the lungs of the afflicted. Unless treated, the lungs slowly harden until the afflicted is unable to breath. The only known treatment is consumption of the [[Emmantiensien-&gt;3b. Ironlung]] herb.</tw-passagedata><tw-passagedata pid="5" name="4. Making Breakfast" tags="" position="423,312" size="100,100">He stood there for a moment, staring blankly at the remaining sprigs of life before [[continuing to prepare-&gt;4a. Making Breakfast]] a simple omelette with the herbs mixed in. As the eggs began to cook, Varos found his [[mind wandering-&gt;4b. Making Breakfast]].</tw-passagedata><tw-passagedata pid="6" name="3b. Ironlung" tags="" position="134,504" size="100,100">A rare, bright pink herb known to stop the effects of Ironlung. Varos liked to keep a healthy supply in [[the cupboard-&gt;3. Making Breakfast]] in case of emergency.</tw-passagedata><tw-passagedata pid="7" name="4a. Making Breakfast" tags="" position="363,457" size="100,100">He kept an eye on the eggs. They were cooking fast. He quickly folded them over and plated them, [[&quot;Breakfast is served.&quot;-&gt;5. &quot;Breakfast is served.&quot;]]
+“A nice change from scrambled,” she said with a cheeky grin.
+“Ha-ha, very funny.”
+</tw-passagedata><tw-passagedata pid="8" name="4b. Making Breakfast" tags="" position="535,457" size="100,100">He looked out the window at the beautiful day unfolding outside. He had slept in a bit, but the sun was still rising. [[He stared at length-&gt;4c. Making Breakfast]] through the woods, trying to see beyond them and what secrets they held.</tw-passagedata><tw-passagedata pid="9" name="4c. Making Breakfast" tags="" position="539,603" size="100,100">“Shit!” The eggs had started to overcook and stick to the pan. Scrambled it is then.
+He broke up the eggs into smaller chunks trying to make it look intentional, plated them and brought them to his mother.
+[[&quot;Breakfast is served.&quot;-&gt;5. &quot;Breakfast is served.&quot;]]
+She took one look at the meal and gave him a knowing smile before beginning to eat.
+</tw-passagedata><tw-passagedata pid="10" name="5. &quot;Breakfast is served.&quot;" tags="" position="371,643" size="100,100">“Thank you son, I appreciate it.”
+
+“Don’t mention it. Hey, I’m going to the village later for some supplies. Is there anything you’d like me to grab?”
+
+“No, but say hello to Marielle if you see her and thank her for the tea she sent with the medicine last week.&quot;
+
+The mention of the medicine stung a bit, and Varos hoped it didn’t show. “Of course, she’ll be glad to hear you’re feeling well this morning.&quot;
+
+He grabbed his bag, his cloak, a handful of copper, and was [[out the door-&gt;6. Crossroad to Marielle and Village]].</tw-passagedata><tw-passagedata pid="11" name="6. Crossroad to Marielle and Village" tags="" position="376,817" size="100,100">It wasn’t far to the village, but even the short walk filled Varos with confidence. Fresh air in his lungs, the warmth of the sun cascading through the treetops, the whimsical chattering of birds and beasts echoing through the woods. It all felt like a dream.
+
+He came to a familiar crossroads. 
+
+(link-reveal:&quot;To the left, &quot;)[[[down the hill-&gt;7. Go to Marielle&#39;s Home First]] and over a small stream, was (link-reveal: &quot;Marielle’s home.&quot;)[ She was the local alchemist who supplied Varos with Emmantiensien.]]
+
+(link-reveal:&quot;To the right, &quot;)[[[after a short path-&gt;8. Go to Village first]], was the (link-reveal: &quot;village.&quot;)[ He had to stop at the village at some point to grab supplies. He didn’t want his mother to know he forgot to grab the herbs the other day and couldn’t come back otherwise empty handed.]]</tw-passagedata><tw-passagedata pid="12" name="7. Go to Marielle&#39;s Home First" tags="" position="301,967" size="100,100">Marielle’s was the priority. Once he had the medicine in hand, he could use whatever money was left over in the village to justify the trip. He practically bounded down the hill, still high on the spirit of the day. Crossing the small stone bridge, Marielle’s home was in sight and [[he could see her at the stand-&gt;7a. Marielle’s House]] she tended while open for business.</tw-passagedata><tw-passagedata pid="13" name="8. Go to Village first" tags="" position="654,977" size="100,100">Varos decided to visit the village first and loop back to Marielle’s. He would keep enough copper aside to purchase the medicine when the time came. He started down the path and (link-reveal:&quot;steeled himself.&quot;)[= Most of the people in town still avoided him, fearing he would spread his mother’s disease. It had gotten easier to ignore their stares, but still distracted him if he let it. Regardless, he put up his cloak preemptively. That would help with the worst of it as he worked his way [[through town.-&gt;8a. Store]]</tw-passagedata><tw-passagedata pid="14" name="7a. Marielle’s House" tags="" position="301,1117" size="100,100">Varos raised his arm to greet her with a wave and was halted in his tracks. The grim, sober look on her face struck him down like lightning. His feet began moving again as if on rails, but his eyes did not leave hers. She didn’t so much as blink as he approached.
+
+“G… G’morning Mary. How are you today?” 
+
+“I’ve got some bad news Varos,” she still had not blinked or looked away. “I haven’t heard from Gil in almost a week. He was supposed to bring me a shipment days ago… [[I’m all out of Emmantiensien.”-&gt;7b. Marielle’s House]]</tw-passagedata><tw-passagedata pid="15" name="7b. Marielle’s House" tags="" position="301,1267" size="100,100">Varos’s lips move but no sound comes out. His hands are shaking. His vision blurs as he collapses to his knees. “I used the last dose this morning,” his voice barely a whisper. Whether or not Marielle heard him, she understood.
+
+“I’m so sorry, I… I don’t know what to do. I can brew something to ease her coughing but it won’t be enough without the Emmantiensien.”
+
+Varos can’t hear her. He’s drowning, being offered an oar but no raft. A wave of realization breaks his stupor. “What if I get it?” he asked.
+
+“You… what? You can’t. You don’t know the way.”
+
+“Gil. Did he ever tell you where he goes? [[Anything at all?-&gt;7c. Marielle’s House]]”
+
+“Not much. He would always head due east into the heart of the forest, but there’s no telling where he went after that.”
+
+[[“I need to go to the village for supplies,”-&gt;7d. Go to Village second]] Varos said as he looked at her, and saw the doubt in her eyes. “If I’m not back by nightfall... take care of her please. As best you can.”</tw-passagedata><tw-passagedata pid="16" name="7c. Marielle’s House" tags="" position="568,1258" size="100,100">“Please, if there’s anything at all you can tell me…”
+
+Mary looks away for the first time since Varos arrived. “Gil would often bring back [[mistletoe, licorice root, and holly-&gt;7c.1. Marielle’s House]]. Maybe if you see those in the woods you’ll be on the right track. He would also always so ‘respect the spirit of the woods’, whatever that means.”
+
+(set:$marielleHint to true)</tw-passagedata><tw-passagedata pid="17" name="7d. Go to Village second" tags="" position="290,1436" size="100,100">Varos sprinted up the hill, hardly taking time to breath. The market was busy. As he slowed his gait, he noticed (link-reveal:&quot;the stares.&quot;)[=
+
+He was panting, an unsettling sight for the ignorant majority who feared he would spread disease. He quickly drew his cloak up to obscure his face before [[making his way-&gt;7e. Store]] through the stalls.</tw-passagedata><tw-passagedata pid="18" name="7c.1. Marielle’s House" tags="" position="560,1430" size="100,100">“Thank you Mary, you have no idea how much I owe you.” Varos looked around rapidly as if searching for something he had dropped.
+
+[[“I need to go to the village for supplies.”-&gt;7d. Go to Village second]] He saw the doubt in her eyes. “If I’m not back by nightfall... take care of her please. As best you can.”</tw-passagedata><tw-passagedata pid="19" name="7e. Store" tags="" position="238,1599" size="100,100">Without much time for shopping, three things caught his eye: [[apples-&gt;7e.1. apples]], [[deer jerky-&gt;7e.2. deer jerky]], and an odd [[knife-&gt;7e.3. knife]] with a stone handle.
+</tw-passagedata><tw-passagedata pid="20" name="7e.1. apples" tags="" position="155,1795" size="100,100">The apples were his mother’s favorite and he could afford a neat dozen. He could [[buy-&gt;7e.1a. Buy Apples]] them or (link-goto: &quot;keep looking.&quot;, (history:)&#39;s last)
+</tw-passagedata><tw-passagedata pid="21" name="7e.2. deer jerky" tags="" position="303,1796" size="100,100">Deer jerky was a bit of a rarity in these parts, and the vendor had almost sold out. 
+
+It had an incredible fragrance to it that one could smell from across the market. It would also be fairly easy to travel with.
+
+He could [[buy-&gt;7e.2a. Buy Jerky]] some or (link-goto: &quot;keep looking.&quot;, (history:)&#39;s last)
+
+</tw-passagedata><tw-passagedata pid="22" name="7e.3. knife" tags="" position="456,1793" size="100,100">“I should pick this up to defend myself in case I run into any trouble...”
+
+The merchant saw Varos eyeing the knife and swung himself around, face full of smiles and eyes full of gold.
+
+“I see you have a fine eye for steel my young friend. This right here is a special blade, forged by the dwarves of Ironmaster. It’s blade will never chip or lose edge. It can be yours for the low low price of 20 copper pieces.”
+
+This clearly seemed like a scam, any blade of such a pedigree would not go for such a small sum, but Varos was short on time. He could [[buy-&gt;7e.3a. Buy Knife]] the knife with the last of his coin or (link-goto: &quot;keep looking.&quot;, (history:)&#39;s last)</tw-passagedata><tw-passagedata pid="23" name="8a. Store" tags="" position="654,1122" size="100,100">The market was busy, as expected. Busy enough that Varos was able to go mostly unnoticed. Glancing around the various stalls, he saw some [[apples-&gt;8a.1. apples]], [[deer jerkey-&gt;8a.2. deer jerky]], and an odd [[knife-&gt;8a.3. knife]] with a stone handle.
+</tw-passagedata><tw-passagedata pid="24" name="7e.1a. Buy Apples" tags="" position="153,1943" size="100,100">He placed his coin on the counter and moved to pick his apples from the cart.
+
+The vendor grabbed the coin and did a quick double take, realizing who his patron was. He quickly maneuvered around the counter to place himself between Varos and the apples. “Let me give you a hand with that young man.”
+
+Varos quickly [[recognized the intervention-&gt;7e.1b. Attitude of Villagers to Varos]] for what it was but shrugged it off. If the vendor wanted to bag his apples for him, who was he to object?
+
+The man held the full bag out at arms length, (link-reveal:&quot;shaking slightly&quot;)[, from fear or effort, it was unclear]. Varos grabbed it thankfully and [[went on his way.-&gt;9. Back to house]]
+
+(set: $marketItem to &quot;apples&quot;)</tw-passagedata><tw-passagedata pid="25" name="7e.1b. Attitude of Villagers to Varos" tags="" position="568,1602" size="100,100">He had been shunned many times in the village since his mother fell ill. Rumors had spread that the disease was contagious, that it had taken his father as well, and that’s why he left. He had almost grown used to it, but at times it still touched a nerve. He [[shook it off-&gt;7e.1a. Buy Apples]] for now, there were more pressing matters at hand.</tw-passagedata><tw-passagedata pid="26" name="9. Back to house" tags="" position="659,2256" size="100,100">His mind was racing as fast as his feet. He didn’t even know where to begin. What should he bring with him? What paths would he follow? What would he tell his mother?
+
+He almost crashed through the front door by the time he realized he was home. Opening the door and crossing the threshold, he realized how out of breath and sweaty he was. Panicking, he stopped in his tracks. A quick scan of the room showed his mother was out of sight. She must be [[lying down for a nap-&gt;9a. Check Mom is sleeping]]. Varos [[tiptoed to his room-&gt;10. Packing]], dreading the creak that came with every step.</tw-passagedata><tw-passagedata pid="27" name="7e.2a. Buy Jerky" tags="" position="304,1941" size="100,100">Varos decided to buy the last of the jerky with what coin he could spare. The light package might make it easier to take more important supplies. He tucked the meat into his bag and [[went on his way.-&gt;9. Back to house]]
+
+(set: $marketItem to &quot;deer jerky&quot;)</tw-passagedata><tw-passagedata pid="28" name="7e.3a. Buy Knife" tags="" position="456,1941" size="100,100">“I don’t suppose you offer any sort of guarantee on that claim?” 
+
+The merchant’s toothy grin was unwavering. After a brief moment, Varos tossed the man his satchel of coins.
+
+“I’ll take it”.
+
+The merchant, still all smiles, delicately handed the blade to Varos with both of his meaty hands. 
+
+“Take care not to cut yourself on it, son.”
+
+Varos grabbed it, edge first, and tucked it into his belt before [[making his way-&gt;9. Back to house]] out of the market.
+
+
+(set: $marketItem to &quot;knife&quot;)</tw-passagedata><tw-passagedata pid="29" name="8a.1. apples" tags="" position="843,1200" size="100,100">The apples were his mother’s favorite and he could afford a neat dozen. He could [[buy-&gt;8a.1a. Buy Apples]] them or [[keep looking-&gt;8a. Store]].</tw-passagedata><tw-passagedata pid="30" name="8a.2. deer jerky" tags="" position="982,1201" size="100,100">Deer jerky was a bit of a rarity in these parts, and the vendor had almost sold out.
+
+Varos felt a bit guilty treating himself, given the circumstances of his trip to town. He could [[buy-&gt; 8a.2a. Buy Jerky]] some or [[keep looking-&gt;8a. Store]].</tw-passagedata><tw-passagedata pid="31" name="8a.3. knife" tags="" position="1119,1203" size="100,100">“I can’t quite afford that and still have enough left for medicine.”
+The merchant saw Varos eyeing the knife and swung himself around, face full of smiles and eyes full of gold.
+“I see you have a fine eye for steel my young friend. This right here is a special blade, forged by the dwarves of Ironmaster. It’s blade will never chip or lose edge. It can be yours for the low low price of 20 copper pieces.”
+“No thanks, I can’t quite afford it.” Varos  turned his attention away. Surely a knife of such pedigree would cost more, it must have been a scam. The fast talking salesman looked about ready to haggle as Varos [[went to shop elsewhere.-&gt;8a. Store]]</tw-passagedata><tw-passagedata pid="32" name=" 8a.2a. Buy Jerky" tags="" position="1007,1374" size="100,100">Varos decided to buy the last of the jerky with what coin he could spare. He was hard pressed not to start digging in right there, but decided to save his snack for later. He tucked the meat into his bag and [[went on his way.-&gt;8b. Go to Marielle&#39;s House second]]
+
+
+(set: $marketItem to &quot;deer jerky&quot;)</tw-passagedata><tw-passagedata pid="33" name="8a.1a. Buy Apples" tags="" position="871,1373" size="100,100">He placed his coin on the counter and moved to pick his apples from the cart.
+
+The vendor grabbed the coin and did a quick double take, realizing who his patron was. He quickly maneuvered around the counter to place himself between Varos and the apples. “Let me give you a hand with that young man.”
+
+Varos quickly [[recognized the intervention-&gt;7e.1b. Attitude of Villagers to Varos]] for what it was but shrugged it off. If the vendor wanted to bag his apples for him, who was he to object?
+
+The man held the full bag out at arms length, (link-reveal:&quot;shaking slightly&quot;)[, from fear or effort, it was unclear]. Varos grabbed it thankfully and [[went on his way.-&gt;8b. Go to Marielle&#39;s House second]]]
+
+(set: $marketItem to &quot;apples&quot;)</tw-passagedata><tw-passagedata pid="34" name="8b. Go to Marielle&#39;s House second" tags="" position="980,1577" size="100,100">With some of his copper spent, Varos was confident that his mother wouldn’t be suspicious of his trip to the village. It was time to go down to Marielle’s and pick up the Emmantiensien.
+
+He practically bounded down the hill, still high on the spirit of the day. Marielle’s home was soon in sight and [[he could see her at the stand-&gt;8c. Marielle&#39;s House]] she tended while open for business.</tw-passagedata><tw-passagedata pid="35" name="8c. Marielle&#39;s House" tags="" position="981,1727" size="100,100">Varos raised his arm to greet her with a wave and was halted in his tracks. The grim, sober look on her face struck him down like lightning. His feet began moving again as if on rails, but his eyes did not leave hers. She didn’t so much as blink as he approached.
+
+“G… G’morning Mary. How are you today?” 
+
+“I’ve got some bad news Varos,” she still had not blinked or looked away. “I haven’t heard from Gil in almost a week. He was supposed to bring me a shipment days ago… [[I’m all out of Emmantiensien.”-&gt;8d. Marielle&#39;s House]]</tw-passagedata><tw-passagedata pid="36" name="8d. Marielle&#39;s House" tags="" position="978,1877" size="100,100">Varos’s lips move but no sound comes out. His hands are shaking. His vision blurs as he collapses to his knees. “I used the last dose this morning,” his voice barely a whisper. Whether or not Marielle heard him, she understood.
+
+“I’m so sorry, I… I don’t know what to do. I can brew something to ease her coughing but it won’t be enough without the Emmantiensien.”
+
+Varos can’t hear her. He’s drowning, being offered an oar but no raft. A wave of realization breaks his stupor. “What if I get it?” he asked.
+
+“You… what? You can’t. You don’t know the way.”
+
+“Gil. Did he ever tell you where he goes? [[Anything at all?-&gt;7c. Marielle’s House]]”
+
+“Not much. He would always head due east into the heart of the forest, but there’s no telling where he went after that.”
+
+Varos looked at her, and saw the doubt in her eyes. “If I’m not back by nightfall... take care of her please. As best you can.” (link-reveal:&quot;He took off up the hill,&quot;)[= already dreading his [[next steps-&gt;9. Back to house]]</tw-passagedata><tw-passagedata pid="37" name="9a. Check Mom is sleeping" tags="" position="441,2386" size="100,100">He had to be sure, he quietly eased her door open on his way by. She was there alright, facing away from the door. Oddly still, Varos waited for what seemed like hours before she took a breath. Confident he wouldn’t wake her, [[he started gathering his things-&gt;10. Packing]].</tw-passagedata><tw-passagedata pid="38" name="10. Packing" tags="" position="649,2500" size="100,100">It took some time. Varos was both recovering from the news at Marielle’s and coming to terms with the task ahead of him. He had spread out on his bed everything he thought he might need for the trip. He couldn’t fit it all in his bag and had to [[decide what to take-&gt;11. Packing (map and compass)]].
+</tw-passagedata><tw-passagedata pid="39" name="11. Packing (map and compass)" tags="" position="649,2711" size="100,100">The map and compass would be key. Varos hadn’t traversed the woods very far on his own before and the tall tree canopies made navigation by sun or star difficult. A waterskin to stay hydrated was stowed next. He had enough room in his bag for [[a couple more things-&gt;12. Packing]], wanting to leave as much room in his bag as possible for Emmantiensien. </tw-passagedata><tw-passagedata pid="40" name="12. Packing" tags="" position="648,2863" size="100,100">The remaining items included [[the $marketItem he bought from the market-&gt;12a. Item bought from market]], [[a length of rope-&gt;12b. Rope]], [[a torch-&gt;12c. Torch and matches]], or [[a machete-&gt;12d. Machete]].
+</tw-passagedata><tw-passagedata pid="41" name="12a. Item bought from market" tags="" position="421,3018" size="100,100">(hidden:)|apple&gt;[The apples would be a good choice to keep Varos fed. They could also be useful to lure away animals or cause a distraction. Varos considered |trigger&gt;[putting it in his bag] or |back&gt;[taking something else].]
+
+(hidden:)|jerky&gt;[‘Nary a better travel companion to be had’, Varos thought to himself. It would be easy to carry and the strong scent would remind him of home during the journey. Varos considered |trigger&gt;[putting it in his bag] or |back&gt;[taking something else].]
+
+(hidden:)|knife&gt;[Varos eyed the small knife with a grin. He wondered if he had blundered in his hurry to buy something useful at the market, or if the silver tongued merchant was at all truthful. He considered |trigger&gt;[putting it in his bag] or |back&gt;[taking something else].]
+
+(if: $marketItem is &quot;apples&quot;)[(show: ?apple)]
+(else-if: $marketItem is &quot;deer jerky&quot;)[(show: ?jerky)]
+(else-if: $marketItem is &quot;knife&quot;)[(show: ?knife)]
+
+(set: _gotoName to &quot;13&quot;)
+(if: (history:)&#39;s last is &quot;13&quot;)[
+	(set: _gotoName to &quot;14&quot;)
+]
+(click:?trigger)[(set: $inventory to $inventory + (a:$marketItem))(go-to:_gotoName)]
+
+(click-goto:?back, (history:)&#39;s last)
+</tw-passagedata><tw-passagedata pid="42" name="12b. Rope" tags="" position="573,3013" size="100,100">A good fifty feet of quality rope. It would be handy to have if he had to cross a gully or ravine. Varos considered |trigger&gt;[putting it in his bag] or |back&gt;[taking something else].
+
+(set: _gotoName to &quot;13&quot;)
+(if: (history:)&#39;s last is &quot;13&quot;)[
+	(set: _gotoName to &quot;14&quot;)
+]
+(click:?trigger)[(set: $inventory to $inventory + (a:&quot;rope&quot;))(go-to:_gotoName)]
+
+(click-goto:?back, (history:)&#39;s last)</tw-passagedata><tw-passagedata pid="43" name="12c. Torch and matches" tags="" position="723,3013" size="100,100">A simple torch and a tinderbox to light it. The pitch smelled something awful, but the intense light would do wonders to guide his way if the journey took (link-reveal: &quot;him into the night&quot;)[. He walked to the window and peered through the treetops. It was hard to tell, but it couldn’t be past mid day. Should be seven or so hours left of light]. 
+
+Varos considered |trigger&gt;[putting it in his bag] or |back&gt;[taking something else].
+
+(set: _gotoName to &quot;13&quot;)
+(if: (history:)&#39;s last is &quot;13&quot;)[
+	(set: _gotoName to &quot;14&quot;)
+]
+(click:?trigger)[(set: $inventory to $inventory + (a:&quot;torch&quot;))(go-to:_gotoName)]
+
+(click-goto:?back, (history:)&#39;s last)</tw-passagedata><tw-passagedata pid="44" name="12d. Machete" tags="" position="874,3011" size="100,100">Varos had found his father’s old machete in the shed while grabbing the rope. It hadn’t seen much use these past few years and was a bit rusted, but the edge was still sharp and true. He considered |trigger&gt;[putting it in his bag] or |back&gt;[taking something else].
+
+(set: _gotoName to &quot;13&quot;)
+(if: (history:)&#39;s last is &quot;13&quot;)[
+	(set: _gotoName to &quot;14&quot;)
+]
+(click:?trigger)[(set: $inventory to $inventory + (a:&quot;machete&quot;))(go-to:_gotoName)]
+
+(click-goto:?back, (history:)&#39;s last)</tw-passagedata><tw-passagedata pid="45" name="13" tags="" position="649,3216" size="100,100">{
+(set: _descriptions to (dm: 
+	$marketItem, &quot;[[the &quot; + $marketItem + &quot; he brought from the market-&gt;12a. Item bought from market]]&quot;,
+	&quot;rope&quot;, &quot;[[a length of rope-&gt;12b. Rope]]&quot;,
+	&quot;torch&quot;, &quot;[[a torch-&gt;12c. Torch and matches]]&quot;,
+	&quot;machete&quot;, &quot;[[a machete-&gt;12d. Machete]]&quot;
+	)) 
+	
+(set:_remainingItems to (a:))
+(for: each _entry, ...(dataentries: _descriptions))[
+	(unless:$inventory contains _entry&#39;s name)[
+		(set: _remainingItems to it + (a:_entry&#39;s value))
+	]
+]
+(set:_text to (joined:&quot;, &quot;, ...(a:_remainingItems&#39;s 1st, _remainingItems&#39;s 2nd)))
+(set:_text to it + &quot; and &quot; + _remainingItems&#39;s last)
+}
+Varos adjusted his pack with the new addition to his gear. He had room enough for one more thing. The remaining items included _text.
+</tw-passagedata><tw-passagedata pid="46" name="14" tags="" position="651,3371" size="100,100">//Inventory: map, compass, (joined:&quot;, &quot;, ...$inventory).//
+
+“All set.” Varos admired his adventuring gear for a moment before slinging it over his back and (link-reveal:&quot;turning to leave.&quot;)[=
+
+He stopped dead in his tracks for the second time today. His mother was standing before him in his doorway, supporting herself slightly on the frame.
+
+“Well, well. Off on an [[adventure?-&gt;15]]”</tw-passagedata><tw-passagedata pid="47" name="15" tags="" position="650,3551" size="100,100">Double-click this passage to edit it.</tw-passagedata></tw-storydata>
 <script title="Twine engine code" data-main="harlowe">"use strict";var _slicedToArray=function(){return function(e,t){if(Array.isArray(e))return e;if(Symbol.iterator in Object(e))return function(e,t){var n=[],r=!0,i=!1,a=void 0;try{for(var o,s=e[Symbol.iterator]();!(r=(o=s.next()).done)&&(n.push(o.value),!t||n.length!==t);r=!0);}catch(e){i=!0,a=e}finally{try{!r&&s.return&&s.return()}finally{if(i)throw a}}return n}(e,t);throw new TypeError("Invalid attempt to destructure non-iterable instance")}}(),_typeof="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e};function _defineProperty(e,t,n){return t in e?Object.defineProperty(e,t,{value:n,enumerable:!0,configurable:!0,writable:!0}):e[t]=n,e}function _toConsumableArray(e){if(Array.isArray(e)){for(var t=0,n=Array(e.length);t<e.length;t++)n[t]=e[t];return n}return Array.from(e)}!function(){
 /**
  * @license almond 0.3.3 Copyright jQuery Foundation and other contributors.
