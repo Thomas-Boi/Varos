@@ -1,0 +1,15 @@
+// inventory
+map and compasses: "compass", "map", "Father's map" 
+market items: "apples", "deer jerky", "knife"
+other objects at home: "rope", "torch", "machete"
+things found in forest: "Gil's cloak"
+
+
+// common macros
+(if: $inventory contains "")[(show:?)]
+(set: $inventory to it + (a:""))
+(set: $failure to it + 1)
+(set: $time to it + 1)
+
+// Testing marcros
+(set: $inventory to (a:"compass", "map", "Father's map", "apples", "deer jerky", "knife", "rope", "torch", "machete"))
