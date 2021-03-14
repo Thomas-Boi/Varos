@@ -192,8 +192,9 @@ Varos can’t hear her. He’s drowning, being offered an oar but no raft. A wav
 [[“I need to go to the village for supplies,”-&gt;7d. Go to Village second]] Varos said as he looked at her, and saw the doubt in her eyes. //“If I’m not back by nightfall... take care of her please. As best you can.”//</tw-passagedata><tw-passagedata pid="16" name="7c. Marielle’s House (hint given)" tags="mary" position="574,1269" size="100,100">“Please, if there’s anything at all you can tell me…”
 
 Mary looks away for the first time since Varos arrived. “Gil would often bring back [[mistletoe, licorice root, and holly-&gt;7c.1. Marielle’s House]]. Maybe if you see those in the woods you’ll be on the right track. He would also always so ‘respect the spirit of the woods’, whatever that means.”
-
-(set:$marielleHint to true)</tw-passagedata><tw-passagedata pid="17" name="7d. Go to Village second" tags="village" position="290,1436" size="100,100">Varos sprinted up the hill, hardly taking time to breath. The market was busy, but he would need supplies. As he slowed his gait, he noticed (link-reveal:&quot;the stares.&quot;)[=
+{
+(set:$marielleHint to true)
+}</tw-passagedata><tw-passagedata pid="17" name="7d. Go to Village second" tags="village" position="290,1436" size="100,100">Varos sprinted up the hill, hardly taking time to breath. The market was busy, but he would need supplies. As he slowed his gait, he noticed (link-reveal:&quot;the stares.&quot;)[=
 
 He was panting, an unsettling sight for the ignorant majority who feared he would spread disease. He quickly drew his cloak up to obscure his face before [[making his way-&gt;7e. Store]] through the stalls.</tw-passagedata><tw-passagedata pid="18" name="7c.1. Marielle’s House" tags="mary" position="573,1459" size="100,100">“Thank you Mary, you have no idea how much I owe you.” Varos looked around rapidly as if searching for something he had dropped.
 
@@ -222,14 +223,16 @@ The vendor grabbed the coin and did a quick double take, realizing who his patro
 Varos quickly [[recognized the intervention-&gt;7e.1b. Attitude of Villagers to Varos]] for what it was but shrugged it off. If the vendor wanted to bag his apples for him, who was he to object?
 
 The man held the full bag out at arms length, (link-reveal:&quot;shaking slightly&quot;)[, from fear or effort, it was unclear]. Varos grabbed it thankfully and [[went on his way.-&gt;9. Back to house]]
-
-(set: $marketItem to &quot;apples&quot;)</tw-passagedata><tw-passagedata pid="25" name="7e.1b. Attitude of Villagers to Varos" tags="shops" position="568,1602" size="100,100">He had been shunned many times in the village since his mother fell ill. Rumors had spread that the disease was contagious, that it had taken his father as well, and that’s why he left. He had almost grown used to it, but at times it still touched a nerve. He shook it off for now, there were more pressing matters at hand.
+{
+(set: $marketItem to &quot;apples&quot;)
+}</tw-passagedata><tw-passagedata pid="25" name="7e.1b. Attitude of Villagers to Varos" tags="shops" position="568,1602" size="100,100">He had been shunned many times in the village since his mother fell ill. Rumors had spread that the disease was contagious, that it had taken his father as well, and that’s why he left. He had almost grown used to it, but at times it still touched a nerve. He shook it off for now, there were more pressing matters at hand.
 
 (click-goto:&quot;shook it off&quot;, (history:)&#39;s last)</tw-passagedata><tw-passagedata pid="26" name="9. Back to house" tags="varosHouse" position="659,2256" size="100,100">His mind was racing as fast as his feet. He didn’t even know where to begin. What should he bring with him? What paths would he follow? What would he tell his mother?
 
 He almost crashed through the front door by the time he realized he was home. Opening the door and crossing the threshold, he realized how out of breath and sweaty he was. Panicking, he stopped in his tracks. A quick scan of the room showed his mother was out of sight. She must be [[lying down for a nap-&gt;9a. Check Mom is sleeping]]. Varos [[tiptoed to his room-&gt;10. Packing]], dreading the creak that came with every step.</tw-passagedata><tw-passagedata pid="27" name="7e.2a. Buy Jerky" tags="shops" position="304,1941" size="100,100">Varos decided to buy the last of the jerky with what coin he could spare. The light package might make it easier to take more important supplies. He tucked the meat into his bag and [[went on his way.-&gt;9. Back to house]]
-
-(set: $marketItem to &quot;deer jerky&quot;)</tw-passagedata><tw-passagedata pid="28" name="7e.3a. Buy Knife" tags="shops" position="456,1941" size="100,100">//“I don’t suppose you offer any sort of guarantee on that claim?” //
+{
+(set: $marketItem to &quot;deer jerky&quot;)
+}</tw-passagedata><tw-passagedata pid="28" name="7e.3a. Buy Knife" tags="shops" position="456,1941" size="100,100">//“I don’t suppose you offer any sort of guarantee on that claim?” //
 
 The merchant’s toothy grin was unwavering. After a brief moment, Varos tossed the man his satchel of coins.
 
@@ -240,9 +243,9 @@ The merchant, still all smiles, delicately handed the blade to Varos with both o
 “Take care not to cut yourself on it, son.”
 
 Varos grabbed it, edge first, and tucked it into his belt before [[making his way-&gt;9. Back to house]] out of the market.
-
-
-(set: $marketItem to &quot;knife&quot;)</tw-passagedata><tw-passagedata pid="29" name="8a.1. apples" tags="shops" position="859,1221" size="100,100">The apples were his mother’s favorite and he could afford a neat dozen. He could [[buy-&gt;8a.1a. Buy Apples]] them or [[keep looking-&gt;8a. Store]].</tw-passagedata><tw-passagedata pid="30" name="8a.2. deer jerky" tags="shops" position="1015,1224" size="100,100">Deer jerky was a bit of a rarity in these parts, and the vendor had almost sold out.
+{
+(set: $marketItem to &quot;knife&quot;)
+}</tw-passagedata><tw-passagedata pid="29" name="8a.1. apples" tags="shops" position="859,1221" size="100,100">The apples were his mother’s favorite and he could afford a neat dozen. He could [[buy-&gt;8a.1a. Buy Apples]] them or [[keep looking-&gt;8a. Store]].</tw-passagedata><tw-passagedata pid="30" name="8a.2. deer jerky" tags="shops" position="1015,1224" size="100,100">Deer jerky was a bit of a rarity in these parts, and the vendor had almost sold out.
 
 Varos felt a bit guilty treating himself, given the circumstances of his trip to town. He could [[buy-&gt; 8a.2a. Buy Jerky]] some or [[keep looking-&gt;8a. Store]].</tw-passagedata><tw-passagedata pid="31" name="8a.3. knife" tags="shops" position="1180,1223" size="100,100">//“I can’t quite afford that and still have enough left for medicine.”//
 
@@ -252,17 +255,18 @@ The merchant saw Varos eyeing the knife and swung himself around, face full of s
 
 //“No thanks, I can’t quite afford it.”// Varos turned his attention away. 
 Surely a knife of such pedigree would cost more; it must have been a scam. The fast talking salesman looked about ready to haggle as Varos [[went to shop elsewhere.-&gt;8a. Store]]</tw-passagedata><tw-passagedata pid="32" name=" 8a.2a. Buy Jerky" tags="shops" position="1008,1399" size="100,100">Varos decided to buy the last of the jerky with what coin he could spare. He was hard pressed not to start digging in right there, but decided to save his snack for later. He tucked the meat into his bag and [[went on his way.-&gt;8b. Go to Marielle&#39;s House second]]
-
-
-(set: $marketItem to &quot;deer jerky&quot;)</tw-passagedata><tw-passagedata pid="33" name="8a.1a. Buy Apples" tags="shops" position="851,1394" size="100,100">He placed his coin on the counter and moved to pick his apples from the cart.
+{
+(set: $marketItem to &quot;deer jerky&quot;)
+}</tw-passagedata><tw-passagedata pid="33" name="8a.1a. Buy Apples" tags="shops" position="851,1394" size="100,100">He placed his coin on the counter and moved to pick his apples from the cart.
 
 The vendor grabbed the coin and did a quick double take, realizing who his patron was. He quickly maneuvered around the counter to place himself between Varos and the apples. “Let me give you a hand with that young man.”
 
 Varos quickly [[recognized the intervention-&gt;7e.1b. Attitude of Villagers to Varos]] for what it was but shrugged it off. If the vendor wanted to bag his apples for him, who was he to object?
 
 The man held the full bag out at arms length, (link-reveal:&quot;shaking slightly&quot;)[, from fear or effort, it was unclear]. Varos grabbed it thankfully and [[went on his way.-&gt;8b. Go to Marielle&#39;s House second]]
-
-(set: $marketItem to &quot;apples&quot;)</tw-passagedata><tw-passagedata pid="34" name="8b. Go to Marielle&#39;s House second" tags="mary" position="975,1572" size="100,100">With some of his copper spent, Varos was confident that his mother wouldn’t be suspicious of his trip to the village. It was time to go down to Marielle’s and pick up the Emmantiensien.
+{
+(set: $marketItem to &quot;apples&quot;)
+}</tw-passagedata><tw-passagedata pid="34" name="8b. Go to Marielle&#39;s House second" tags="mary" position="975,1572" size="100,100">With some of his copper spent, Varos was confident that his mother wouldn’t be suspicious of his trip to the village. It was time to go down to Marielle’s and pick up the Emmantiensien.
 
 He practically bounded down the hill, still high on the spirit of the day. Marielle’s home was soon in sight and [[he could see her at the stand-&gt;8c. Marielle&#39;s House]] she tended while open for business.</tw-passagedata><tw-passagedata pid="35" name="8c. Marielle&#39;s House" tags="mary" position="981,1727" size="100,100">Varos raised his arm to greet her with a wave and was halted in his tracks. The grim, sober look on her face struck him down like lightning. His feet began moving again as if on rails, but his eyes did not leave hers. She didn’t so much as blink as he approached.
 
@@ -287,7 +291,7 @@ Varos looked at her, and saw the doubt in her eyes. //“If I’m not back by ni
 (hidden:)|jerky&gt;[‘Nary a better travel companion to be had’, Varos thought to himself. It would be easy to carry and the strong scent would remind him of home during the journey. Varos considered |trigger&gt;[putting it in his bag] or |back&gt;[taking something else].]
 
 (hidden:)|knife&gt;[Varos eyed the small knife with a grin. He wondered if he had blundered in his hurry to buy something useful at the market, or if the silver tongued merchant was at all truthful. He considered |trigger&gt;[putting it in his bag] or |back&gt;[taking something else].]
-
+{
 (if: $marketItem is &quot;apples&quot;)[(show: ?apple)]
 (else-if: $marketItem is &quot;deer jerky&quot;)[(show: ?jerky)]
 (else-if: $marketItem is &quot;knife&quot;)[(show: ?knife)]
@@ -299,33 +303,36 @@ Varos looked at her, and saw the doubt in her eyes. //“If I’m not back by ni
 (click:?trigger)[(set: $inventory to $inventory + (a:$marketItem))(go-to:_gotoName)]
 
 (click-goto:?back, (history:)&#39;s last)
-</tw-passagedata><tw-passagedata pid="42" name="12b. Rope" tags="varosHouse" position="573,3013" size="100,100">A good fifty feet of quality rope. It would be handy to have if he had to cross a gully or ravine. Varos considered |trigger&gt;[putting it in his bag] or |back&gt;[taking something else].
-
+}</tw-passagedata><tw-passagedata pid="42" name="12b. Rope" tags="varosHouse" position="573,3013" size="100,100">A good fifty feet of quality rope. It would be handy to have if he had to cross a gully or ravine. Varos considered |trigger&gt;[putting it in his bag] or |back&gt;[taking something else].
+{
 (set: _gotoName to &quot;13. Choose second item&quot;)
 (if: (history:)&#39;s last is &quot;13. Choose second item&quot;)[
 	(set: _gotoName to &quot;14. Finished packing&quot;)
 ]
 (click:?trigger)[(set: $inventory to $inventory + (a:&quot;rope&quot;))(go-to:_gotoName)]
 
-(click-goto:?back, (history:)&#39;s last)</tw-passagedata><tw-passagedata pid="43" name="12c. Torch and matches" tags="varosHouse" position="723,3013" size="100,100">A simple torch and a tinderbox to light it. The pitch smelled something awful, but the intense light would do wonders to guide his way if the journey took (link-reveal: &quot;him into the night&quot;)[. He walked to the window and peered through the treetops. It was hard to tell, but it couldn’t be past mid day. Should be seven or so hours left of light]. 
+(click-goto:?back, (history:)&#39;s last)
+}</tw-passagedata><tw-passagedata pid="43" name="12c. Torch and matches" tags="varosHouse" position="723,3013" size="100,100">A simple torch and a tinderbox to light it. The pitch smelled something awful, but the intense light would do wonders to guide his way if the journey took (link-reveal: &quot;him into the night&quot;)[. He walked to the window and peered through the treetops. It was hard to tell, but it couldn’t be past mid day. Should be seven or so hours left of light]. 
 
 Varos considered |trigger&gt;[putting it in his bag] or |back&gt;[taking something else].
-
+{
 (set: _gotoName to &quot;13. Choose second item&quot;)
 (if: (history:)&#39;s last is &quot;13. Choose second item&quot;)[
 	(set: _gotoName to &quot;14. Finished packing&quot;)
 ]
 (click:?trigger)[(set: $inventory to $inventory + (a:&quot;torch&quot;))(go-to:_gotoName)]
 
-(click-goto:?back, (history:)&#39;s last)</tw-passagedata><tw-passagedata pid="44" name="12d. Machete" tags="varosHouse" position="874,3011" size="100,100">Varos had found his father’s old machete in the shed while grabbing the rope. It hadn’t seen much use these past few years and was a bit rusted, but the edge was still sharp and true. He considered |trigger&gt;[putting it in his bag] or |back&gt;[taking something else].
-
+(click-goto:?back, (history:)&#39;s last)
+}</tw-passagedata><tw-passagedata pid="44" name="12d. Machete" tags="varosHouse" position="874,3011" size="100,100">Varos had found his father’s old machete in the shed while grabbing the rope. It hadn’t seen much use these past few years and was a bit rusted, but the edge was still sharp and true. He considered |trigger&gt;[putting it in his bag] or |back&gt;[taking something else].
+{
 (set: _gotoName to &quot;13. Choose second item&quot;)
 (if: (history:)&#39;s last is &quot;13. Choose second item&quot;)[
 	(set: _gotoName to &quot;14. Finished packing&quot;)
 ]
 (click:?trigger)[(set: $inventory to $inventory + (a:&quot;machete&quot;))(go-to:_gotoName)]
 
-(click-goto:?back, (history:)&#39;s last)</tw-passagedata><tw-passagedata pid="45" name="13. Choose second item" tags="varosHouse" position="650,3216" size="100,100">{
+(click-goto:?back, (history:)&#39;s last)
+}</tw-passagedata><tw-passagedata pid="45" name="13. Choose second item" tags="varosHouse" position="650,3216" size="100,100">{
 (set: _descriptions to (dm: 
 	$marketItem, &quot;[[the &quot; + $marketItem + &quot; he brought from the market-&gt;12a. Item bought from market]]&quot;,
 	&quot;rope&quot;, &quot;[[a length of rope-&gt;12b. Rope]]&quot;,
@@ -389,10 +396,10 @@ It was a route Varos had taken countless times but this time was special. This t
 Faces blurred by him as he rushed to make his way. If anyone stared, he didn’t see.
 
 The gates themselves loomed large, made of the trunks of local Alders. More symbolic than anything, they offered no impasse for those coming or going. With a deep breath, Varos crossed under the massive archway and |link&gt;[began his journey]
+{
 (if: $inventory contains &quot;Father&#39;s map&quot;)[(click-goto: ?link, &quot;18a. First crossroad&quot;)]
 (else:)[(click-goto: ?link, &quot;18. First crossroad&quot;)]
-
-</tw-passagedata><tw-passagedata pid="52" name="16b.1. Tell her the truth of trip" tags="varosHouse" position="941,3969" size="100,100">//“Why didn’t you stop me?”//
+}</tw-passagedata><tw-passagedata pid="52" name="16b.1. Tell her the truth of trip" tags="varosHouse" position="941,3969" size="100,100">//“Why didn’t you stop me?”//
 
 She rubbed her right brow and pulled on it a little. “This is what you always wanted and I’ve stood in the way of that long enough.”
 
@@ -413,9 +420,10 @@ Varos stood and began to stammer, stumbling over his words as he tried to form a
 “Just go. There’s only so much time before night.”
 
 He nodded grimly, fresh tears in his eyes, and ran for [[the door-&gt;17. Crossing the threshold]].
-
+{
 (set: $inventory to it - (a: &quot;map&quot;))
-(set: $inventory to it + (a: &quot;Father&#39;s map&quot;))</tw-passagedata><tw-passagedata pid="54" name="18. First crossroad" tags="forestPath map" position="553,4389" size="100,100">Varos followed the dirt road for a short while. It made for easier travel but it didn’t quite go due east. If he kept to it, it would eventually lead him south east to the Long Road, just north of Amphail.
+(set: $inventory to it + (a: &quot;Father&#39;s map&quot;))
+}</tw-passagedata><tw-passagedata pid="54" name="18. First crossroad" tags="forestPath map" position="553,4389" size="100,100">Varos followed the dirt road for a short while. It made for easier travel but it didn’t quite go due east. If he kept to it, it would eventually lead him south east to the Long Road, just north of Amphail.
 
 Charting his progress with the map, he eventually decided the path became too southward for his purposes and branched off into the unknown. It wasn’t particularly rough going at first. The woods were thick with trees but the underbrush was sparse closer to the road.
 
@@ -436,21 +444,23 @@ Shielding his eyes and pushing through a particularly thick patch, he let out a 
 “Hmm…(hidden:)|machete&gt;[[[ my machete-&gt;20a. Thicket (cut through)]] could work.]” Stewing on the next course of action, Varos looked around him. Crouched down, he could see a game trail running into the bushes. It might be awkward, but he could [[follow the trail-&gt;20b. Thicket (crawl through)]] to the other side.
 
 (if: $inventory contains &quot;machete&quot;)[(show:?machete)]</tw-passagedata><tw-passagedata pid="57" name="19a. Ravine (turn back and go East)" tags="ravine" position="581,4747" size="100,100">It was simply too dangerous(hidden:)|rope&gt;[, and he didn’t want to have to abandon the rope here]. He traced back his steps down the gentle slope skirting the rock face. It didn’t take long to find the familiar spot where he split his path but he knew had lost precious time by doubling back. He shook off an ominous, nagging feeling and [[continued east-&gt;20. Directly East through thicket]].
-
+{
 (set:$time to it + 1)
-</tw-passagedata><tw-passagedata pid="58" name="19b. Ravine (rope)" tags="ravine" position="421,4747" size="100,100">He may not have been much of an adventurer, but he knew how to tie a knot. He had read all about sailing and the various knots used to secure sails and cargo. He found a sturdy tree, lashed one end of the rope around it’s trunk, looped the rest through his belt, and began to descend into the ravine. It was an easy climb down, but he took his time just to be safe.
+}</tw-passagedata><tw-passagedata pid="58" name="19b. Ravine (rope)" tags="ravine" position="421,4747" size="100,100">He may not have been much of an adventurer, but he knew how to tie a knot. He had read all about sailing and the various knots used to secure sails and cargo. He found a sturdy tree, lashed one end of the rope around it’s trunk, looped the rest through his belt, and began to descend into the ravine. It was an easy climb down, but he took his time just to be safe.
 {&lt;audio src=&quot;https://www.dropbox.com/s/3d06o6z8q9y983e/231853__alegemaate__walk-dirt.mp3?dl=1&quot; autoplay&gt;&lt;/audio&gt;}
 Once at the bottom, he untied himself and [[continued eastward-&gt;21. Tripped on something]].
-
-(set: $inventory to it - (a:&quot;rope&quot;))</tw-passagedata><tw-passagedata pid="59" name="19c. Ravine (climb down)" tags="ravine" position="248,4747" size="100,100">Doubling back to take the East path would take too long. He had to cross the ravine here and now. 
+{
+(set: $inventory to it - (a:&quot;rope&quot;))
+}</tw-passagedata><tw-passagedata pid="59" name="19c. Ravine (climb down)" tags="ravine" position="248,4747" size="100,100">Doubling back to take the East path would take too long. He had to cross the ravine here and now. 
 
 He eased himself down from the solid earth at the top of the bank so his feet could acclimatize to the texture of the loose ground. Luckily, there were a plethora of roots to use as handholds sticking out of the dirt every which way.
 
 He shifted his weight back and forth to get a feel for the movement of the mixture of sand and gravel. Confident he could ease his way down, he began the descent. Once or twice he slipped and fell uphill to steady himself with his hands. Closer closer to the bottom he came. He was about two thirds of the way down when his next step sunk down into the sand and pitched him forward.
 
 Despite his best efforts to brace for the impact, Varos still took a hard fall. His arms and hands were bleeding, layers of skin ground off in places. He did have some luck in that the bottom of the ravine was not completely dry. A small stream ran through it and he was able to clean himself up somewhat before [[continuing eastward-&gt;21. Tripped on something]].
-
-(set: $isInjured to true)</tw-passagedata><tw-passagedata pid="60" name="21. Tripped on something" tags="gilPlace" position="611,5094" size="100,100">Varos was beginning to feel lost. He was travelling due east, as Marielle had suggested but he hadn’t found anything of note. He had hoped to see the bright pink sprigs of Emmanteinsein in a bush, on a branch, or growing from some vines, but no such luck. He was busy swapping glances with his compass when he tripped over an errant root and fell face first in the dirt.
+{
+(set: $isInjured to true)
+}</tw-passagedata><tw-passagedata pid="60" name="21. Tripped on something" tags="gilPlace" position="611,5094" size="100,100">Varos was beginning to feel lost. He was travelling due east, as Marielle had suggested but he hadn’t found anything of note. He had hoped to see the bright pink sprigs of Emmanteinsein in a bush, on a branch, or growing from some vines, but no such luck. He was busy swapping glances with his compass when he tripped over an errant root and fell face first in the dirt.
 
 He lay there for a moment, small puffs of dirt emanating from around his mouth as he breathed out into the earth.
 
@@ -459,8 +469,9 @@ Was this all hopeless? Afterall, he was one person searching a vast forest for a
 He rolled onto his side and began pulling himself to his feet when he noticed [[something peculiar-&gt;22. Tripped on something]].</tw-passagedata><tw-passagedata pid="61" name="20a. Thicket (cut through)" tags="forestPath" position="808,4742" size="100,100">After a few test swings to warm up, Varos began hacking at the greenery. 
 
 It took some time, but he was able to reliably clear a path. As he worked his way deeper, the foliage almost seemed to recoil from his swings. Before long, he had made his way to the other side. He felt strangely guilty, like he had just mistreated a small animal out of reaction. Looking back at the way he came, the path he had cut was gone. Bewildered, he [[forged ahead-&gt;21. Tripped on something]] in a north eastern direction, still correcting slightly from his use of the road prior.
-
-(set: $attackedForest to true)</tw-passagedata><tw-passagedata pid="62" name="20b. Thicket (crawl through)" tags="forestPath" position="1001,4736" size="100,100">Varos got down on his belly and began to crawl. The game trail was his only way through. Going through what he had already slogged past wasn’t an option, given the time it would take. 
+{
+(set: $attackedForest to true)
+}</tw-passagedata><tw-passagedata pid="62" name="20b. Thicket (crawl through)" tags="forestPath" position="1001,4736" size="100,100">Varos got down on his belly and began to crawl. The game trail was his only way through. Going through what he had already slogged past wasn’t an option, given the time it would take. 
 
 The trail was a tight squeeze. Sharp twigs scratched at him from all sides as he wormed his way in. Once fully enveloped in the labyrinth of root and stem, the going almost seemed to become easier. He felt fewer and fewer jabs in his sides until there was none at all. Despite the slow pace, he was through in no time. 
 
@@ -481,9 +492,9 @@ Varos had hoped to find some Emmantiensien and bring his adventure to an end.
 He cursed his poor luck, but there was work to do. The sun wouldn’t slow on his, his mother’s, or Gil’s account. The search [[had to continue-&gt;24a. Continue without burial]] but…
 
 He took another long look at Gil. He [[deserved a burial-&gt;24b. Bury Gil]]. 
-
+{
 (set: $inventory to it + (a:&quot;Gil&#39;s cloak&quot;))
-</tw-passagedata><tw-passagedata pid="66" name="24a. Continue without burial" tags="gilPlace" position="536,5694" size="100,100">Whatever killed Gil might be native to this area of the woods. As unfortunate as it was, it would do no good for both of them to perish here. Varos marked the spot on his map to the best of his ability and [[continued east-&gt;25. Something is coming]].</tw-passagedata><tw-passagedata pid="67" name="24b. Bury Gil" tags="gilPlace" position="686,5694" size="100,100">Varos dragged his friend’s body as gently as he was able to an area with softer ground. He didn’t have a shovel, |dig&gt;[A/B]. 
+}</tw-passagedata><tw-passagedata pid="66" name="24a. Continue without burial" tags="gilPlace" position="536,5694" size="100,100">Whatever killed Gil might be native to this area of the woods. As unfortunate as it was, it would do no good for both of them to perish here. Varos marked the spot on his map to the best of his ability and [[continued east-&gt;25. Something is coming]].</tw-passagedata><tw-passagedata pid="67" name="24b. Bury Gil" tags="gilPlace" position="686,5694" size="100,100">Varos dragged his friend’s body as gently as he was able to an area with softer ground. He didn’t have a shovel, |dig&gt;[A/B]. 
 
 He dug until his hands were raw and shaking. “Just a little more,” he strained, when he struck a large stone. |hitRock&gt;[C/D]. 
 {
@@ -497,7 +508,8 @@ He dug until his hands were raw and shaking. “Just a little more,” he strain
 	(replace: ?dig)[so he would have to use his hands to dig. It didn’t have to be deep, just enough to cover Gil until he could come back with proper tools]
 	(replace: ?hitRock)[He tried pulling it out by hand but it was stuck firmly in the earth]
 ]
-}(if: $inventory contains &quot;knife&quot;)[Reeling back from his attempt to free the stone, Varos stumbled and the small stone handled knife he bought earlier shook free from his belt. He looked at it with sheer contempt, and (link-reveal: &quot;threw it into the hole.&quot;)[=
+}(if: $inventory contains &quot;knife&quot;)[
+Reeling back from his attempt to free the stone, Varos stumbled and the small stone handled knife he bought earlier shook free from his belt. He looked at it with sheer contempt, and (link-reveal: &quot;threw it into the hole.&quot;)[=
 
 Suddenly, the ground rumbled and loose dirt sprayed into the air. 
 
@@ -513,7 +525,8 @@ He hunched back over and continued to strategically use the knife to displace di
 
 //“Rest in peace my friend. I wish I could thank you for all you’ve done.”// Varos stood and wiped the back of the knife down his pantleg. All of the dirt came free instantly. He cleaned himself off and [[continued east-&gt;25. Something is coming]].
 ]{
-}(else:)[//“This will have to do, I guess.” //
+}(else:)[
+//“This will have to do, I guess.” //
 
 He positioned the body in the hole and covered it with the loose earth. //“I’m sorry Gil. I hope you’ve found peace.”//
 
@@ -522,9 +535,7 @@ Varos stood, dusted himself off to the best of his ability and [[continued east-
 
 He was squinting up towards the sky when he heard a shrill, unearthly sound puncture the calm air around him.
 {&lt;audio src=&quot;https://www.dropbox.com/s/6l646cjw8kjzdal/68068__rogerforeman__coyote2.wav?dl=1&quot; autoplay&gt;&lt;/audio&gt;}
-
 Initial confusion at the unfamiliar noise led to frozen panic as he recalled Gil’s injuries. Another shriek came, closer this time, breaking through his shock. If this is what killed a trained hunter like Gil… Varos [[had to hide-&gt;26. Something is coming]].</tw-passagedata><tw-passagedata pid="69" name="26. Something is coming" tags="forestPath2" position="590,6039" size="100,100">He withdrew the cloak from his bag, wrapped it around himself, and ducked down into a small depression in the dirt. //“I hope this works,”// he mumbled as another howl sounded nearby.
-
 {&lt;audio src=&quot;https://www.dropbox.com/s/xnbxwrl7844v9r6/401670__adamjordaan140087__heartbeat.wav?dl=1&quot; autoplay&gt;&lt;/audio&gt;}
 A tense moment passed when all Varos could hear was his own heartbeat, thumping madly. He had almost thought himself delusional, having imagined the sounds, when [[he saw it-&gt;27. Meet the Gnoll]] weave through a nearby copse of birch.
 </tw-passagedata><tw-passagedata pid="70" name="27. Meet the Gnoll" tags="forestPath2" position="590,6189" size="100,100">Snorting, snarling, and scarred. The [[gnoll-&gt;27a. What&#39;s a gnoll]]’s eyes darted every which way as his snout twitched furiously. It was tracking. Brandishing a hefty looking maul, and a machete hanging from its hip, Varos knew he stood little chance at fighting this beast. 
@@ -533,40 +544,37 @@ His mind raced over what his options might be. He quickly rummaged through his b
 
 (if: $inventory contains &quot;apples&quot;)[Down near the bottom of the bag, his hand came to rest on an apple, his last one. 
 
-If luck was on his side, he could throw it to distract the creature long enough to sneak off. It was currently stalking to the north of him. Varos had to continue east, so he had to throw it northward [[past the gnoll-&gt;27b. Threw apple to the north]] into thicker brush or an easier throw to the west, [[back towards Gil-&gt;27c. Threw apple to the west]] where the path was more clear.](else-if: $inventory contains &quot;deer jerky&quot;)[Down near the bottom of the bag, his hand came to rest on the remaining jerky. The tasty but intensely fragrant jerky. The realization came just as the gnoll’s ears angled backward and it leveled its gaze directly at Varos, emitting a low growl.
+If luck was on his side, he could throw it to distract the creature long enough to sneak off. It was currently stalking to the north of him. Varos had to continue east, so he had to throw it northward [[past the gnoll-&gt;27b. Threw apple to the north]] into thicker bush or an easier throw to the west, [[back towards Gil-&gt;27c. Threw apple to the west]] where the path was more clear.](else-if: $inventory contains &quot;deer jerky&quot;)[Down near the bottom of the bag, his hand came to rest on the remaining jerky. The tasty but intensely fragrant jerky. The realization came just as the gnoll’s ears angled backward and it leveled its gaze directly at Varos, emitting a low growl.
 
 Varos’s instincts took over and he shot to his feet, [[sprinting eastward-&gt;27d. Throw cloak at gnoll and throw jerky]]. The gnoll pursued and was gaining.
 ](else:)[Finding nothing that could help him, Varos cursed at his bad luck. He would have to wait things out and hope the gnoll didn’t find him. He closed his eyes and spoke prayers in his mind. Not for himself, but for his mother. For Mary. For Gil. He clutched his hands over his chest.
 
 It took some time, but the gnoll began to move away from him. Further and further it went until it disappeared through the trees to the west. Varos allowed himself a sigh of relief but decided to wait a bit longer to be sure [[his movements-&gt;28. The clearing]] weren’t heard.
-
-(set: $time to it + 1)
-]</tw-passagedata><tw-passagedata pid="71" name="27a. What&#39;s a gnoll" tags="gnoll" position="235,6377" size="100,100">Gnolls were furious hyena-like creatures that stood on their hind legs like humans. They operated in group structures, often attacking small villages in the dead of night for supplies. Whether by bravery or stupidity, they only run from overwhelming odds. Varos recalled their [[keen sense of smell-&gt;27. Meet the Gnoll]], having heard stories of them from Gil.</tw-passagedata><tw-passagedata pid="72" name="27b. Threw apple to the north" tags="forestPath2" position="394,6375" size="100,100">He reached his arm out from under the cloak and hurled the apple with all the strength he could muster in his awkward position. In doing so, over-extended his arm and slipped, falling to the ground and smashing his knee on a stone. 
+(set: $time to it + 1)]</tw-passagedata><tw-passagedata pid="71" name="27a. What&#39;s a gnoll" tags="gnoll" position="235,6377" size="100,100">Gnolls were furious hyena-like creatures that stood on their hind legs like humans. They operated in group structures, often attacking small villages in the dead of night for supplies. Whether by bravery or stupidity, they only run from overwhelming odds. Varos recalled their [[keen sense of smell-&gt;27. Meet the Gnoll]], having heard stories of them from Gil.</tw-passagedata><tw-passagedata pid="72" name="27b. Threw apple to the north" tags="forestPath2" position="394,6375" size="100,100">He reached his arm out from under the cloak and hurled the apple with all the strength he could muster in his awkward position. In doing so, over-extended his arm and slipped, falling to the ground and smashing his knee on a stone. 
 
 The apple almost flew into the bushes past the gnoll but stopped short, hitting a low hanging branch. The gnoll tilted its head to the left, then to the right, and back to the left. Letting out a low growl, it looked directly at Varos.
 
 //“Shit!”// Varos ran, but the gnoll started chasing him. Eventually, Varos started slowing down. His recent slip and injuries from before were too much. He tried to keep moving, but his legs were not listening. (if: $isInjured)[His arms, still hurting from the fall earlier, couldn’t unwrap his cloak quick enough to distract the gnoll. 
 
 The gnoll was right behind him now. It raised its huge maul up in the air and brought it down on the poor boy’s head. Passed out from the hit, Varos was spared the horror of being [[eaten alive.-&gt;Ending 6. For whom the bell gnolls]]](else:)[Luckily, he still has his arms. [[There must be something he could do...-&gt;27d. Throw cloak at gnoll and throw jerky]].]
-
-(set: $inventory to it - (a:&quot;apples&quot;))</tw-passagedata><tw-passagedata pid="73" name="27c. Threw apple to the west" tags="forestPath2" position="656,6369" size="100,100">He reached his arm out from under the cloak and hurled the apple with all the strength he could muster in his awkward position. It flew back in the direction he came, past some trees and down a low rise. The gnoll’s ears perked up instantly and it let out a demonic, undulating sound before taking off in pursuit. 
+{
+(set: $inventory to it - (a:&quot;apples&quot;))
+}</tw-passagedata><tw-passagedata pid="73" name="27c. Threw apple to the west" tags="forestPath2" position="656,6369" size="100,100">He reached his arm out from under the cloak and hurled the apple with all the strength he could muster in his awkward position. It flew back in the direction he came, past some trees and down a low rise. The gnoll’s ears perked up instantly and it let out a demonic, undulating sound before taking off in pursuit. 
 
 Varos waited until it was out of sight before [[hurrying his way eastward-&gt;28. The clearing]].
-
-(set: $inventory to it - (a:&quot;apples&quot;))</tw-passagedata><tw-passagedata pid="74" name="27d. Throw cloak at gnoll and throw jerky" tags="gnollAngry" position="871,6364" size="100,100">The only thing he could think of was toss his cloak at the thing, hoping it would get tangled up enough to allow escape. He quickly bundled it up and launched it backwards. All corners of the cloak billowed out and the gnoll found himself running at an apparent wall of dirt and debris. It tried to skid to a stop but stumbled and became wrapped up in the folds of cloth. 
+{
+(set: $inventory to it - (a:&quot;apples&quot;))
+}</tw-passagedata><tw-passagedata pid="74" name="27d. Throw cloak at gnoll and throw jerky" tags="gnollAngry" position="871,6364" size="100,100">The only thing he could think of was toss his cloak at the thing, hoping it would get tangled up enough to allow escape. He quickly bundled it up and launched it backwards. All corners of the cloak billowed out and the gnoll found himself running at an apparent wall of dirt and debris. It tried to skid to a stop but stumbled and became wrapped up in the folds of cloth. 
 
 However, before the hyena-man fell, it swung its maul wildly, hoping to hit the boy. One of them grazed Varos’ back, nearly knocking the boy over. 
 
 //“Ahhh!”//, Varos cried out as he stuck out his arms to break his fall. He knew that he had no time to stop and pushed himself back up. The near death experience had bought him the adrenaline he needed. Varos doubled down on [[his escape-&gt;28. The clearing]], moving faster than he thought himself capable. 
-
+{
 (if: $inventory contains &quot;deer jerky&quot;)[Once the gnoll was out of sight, he tossed the remaining jerky south, deep into a thorny bush. Hopefully, that will buy him some more time.
-
-(set: $inventory to it - (a:&quot;deer jerky&quot;))
-]
-
+(set: $inventory to it - (a:&quot;deer jerky&quot;))]
 (set: $inventory to it - (a:&quot;Gil&#39;s cloak&quot;))
 (set: $isInjured to true)
-</tw-passagedata><tw-passagedata pid="75" name="28. The clearing" tags="glen" position="586,6643" size="100,100">Varos slid down a short hill covered in dry leaves and foliage. It reminded him of his childhood, diving into raked up piles of debris in the harvest seasons. Approaching the bottom of the hill, he had to shield his face from some low hanging branches.
+}</tw-passagedata><tw-passagedata pid="75" name="28. The clearing" tags="glen" position="586,6643" size="100,100">Varos slid down a short hill covered in dry leaves and foliage. It reminded him of his childhood, diving into raked up piles of debris in the harvest seasons. Approaching the bottom of the hill, he had to shield his face from some low hanging branches.
 
 Uncovering his eyes, he was greeted by a mesmerizing sight.
 
@@ -589,13 +597,11 @@ Varos takes a moment to rest. Knelt in the meadow, wrapped in calming energy, he
 Just as he began to pick himself up, he caught a glimpse of vibrant red in the field of green. He dropped back down and continued digging through the brush. The holly seemed to grow in a winding path through the trees to the north east. 
 
 //“Thank you Mary.”// With a renewed determination, Varos [[followed the trail of red.-&gt;30. Found the Emmantiensien]]
-]
-(else:)[Varos searched this part of the woods for over an hour. He kept finding himself going in circles. He tried marking the trees he passed, but they seemed to recover from any gouges or scratches by the time he came back to them. 
+]{
+}(else:)[Varos searched this part of the woods for over an hour. He kept finding himself going in circles. He tried marking the trees he passed, but they seemed to recover from any gouges or scratches by the time he came back to them. 
 
 He had almost given up when he picked up on a peculiar pattern. Holly bushes grew all around him, but some bore fruit. Odd for this time of year, Varos started to seek out more of these anomalies, [[leading him on a jagged path-&gt;30. Found the Emmantiensien]] to the northeast.
-
-(set: $time to it + 1)
-]</tw-passagedata><tw-passagedata pid="77" name="30. Found the Emmantiensien" tags="treant" position="586,6943" size="100,100">Varos followed the trail of holly deeper into the woods and it led him to a magnificent sight. A strange, vast tree unlike any he had seen in the forest. Its roots spread out and penetrate the rocky ground on which it stands.
+(set: $time to it + 1)]</tw-passagedata><tw-passagedata pid="77" name="30. Found the Emmantiensien" tags="treant" position="586,6943" size="100,100">Varos followed the trail of holly deeper into the woods and it led him to a magnificent sight. A strange, vast tree unlike any he had seen in the forest. Its roots spread out and penetrate the rocky ground on which it stands.
 
 Breath-taken and eyes wide, a moment passed before he was able to focus again. Scanning the massive tree, he let out a gasp of surprise. Sprigs of bright pink were scattered amongst the roots, poking up between gnarled wooden tendrils and stone. 
 
@@ -618,9 +624,9 @@ If he [[waited a while-&gt;33. Wait for Treant to sleep]], it might go back to s
 After a few minutes the tree stopped ‘speaking’ and seemed to rest, its eyes still half open but its mouth silent.
 
 By the time an hour had passed, its eyes were shut long enough for Varos to feel safe in [[making his move-&gt;33a. Harvest the plant]]. 
-
+{
 (set: $time to it + 1)
-</tw-passagedata><tw-passagedata pid="81" name="34. Talk to Treant" tags="treant" position="824,7373" size="100,100">Varos was done hiding. He hadn’t come so far to let his fear get the better of him.
+}</tw-passagedata><tw-passagedata pid="81" name="34. Talk to Treant" tags="treant" position="824,7373" size="100,100">Varos was done hiding. He hadn’t come so far to let his fear get the better of him.
 
 //“Hail!”// He tried to make himself sound strong and imposing, but his voice cracked at the tail end of his call.
 
@@ -683,8 +689,9 @@ The roots released.
 (font:&quot;Papyrus&quot;)[“Leave now, but be wary. There is a gnoll in the woods. He seeks the herb. Their kind crave it.”]
 
 Varos nodded and [[ran-&gt;35a. Ambushed by the gnoll]]. He didn’t want to risk Alnus changing their mind.
-
-(set: $alnusAid to true)]</tw-passagedata><tw-passagedata pid="86" name="35b. Return with no Golden Elixir" tags="forestPath" position="193,8222" size="100,100">(if: (history:)&#39;s last is not &quot;35. Check daylight&quot;)[(go-to:&quot;35. Check daylight&quot;)]{
+{
+(set: $alnusAid to true)]
+}</tw-passagedata><tw-passagedata pid="86" name="35b. Return with no Golden Elixir" tags="forestPath" position="193,8222" size="100,100">(if: (history:)&#39;s last is not &quot;35. Check daylight&quot;)[(go-to:&quot;35. Check daylight&quot;)]{
 }It was a long trek home. The sun was falling from the sky, and Varos made no further efforts to track the time.
 
 He made his way past the glen. The open clearing no longer held that same warmth or sense of safety as it did earlier in the day.
@@ -745,9 +752,9 @@ Varos nodded and turned to leave.
 (font:&quot;Papyrus&quot;)[“I will help you where. I can. Now go.”]
 
 Varos returned to the tree line and looked back. Alnus had already closed their eyes and seemed to be sleeping again. He turned and [[began the trek home-&gt;35a. Ambushed by the gnoll]].]
-
-
-(set: $alnusAid to true)</tw-passagedata><tw-passagedata pid="88" name="35c. Set up trap for gnoll" tags="gilPlace" position="937,8171" size="100,100">(if: (history:)&#39;s last is not &quot;35. Check daylight&quot;)[(go-to:&quot;35. Check daylight&quot;)]{
+{
+(set: $alnusAid to true)
+}</tw-passagedata><tw-passagedata pid="88" name="35c. Set up trap for gnoll" tags="gilPlace" position="937,8171" size="100,100">(if: (history:)&#39;s last is not &quot;35. Check daylight&quot;)[(go-to:&quot;35. Check daylight&quot;)]{
 }Varos traced his path back through the woods carefully. Each step was taken with more purpose than the last, knowing he might draw closer to his quarry at any moment.
 
 He made it all the way back to Gil’s burial site with no signs of the gnoll so he (link-reveal:&quot;decided to set a trap.&quot;)[=
@@ -829,9 +836,7 @@ A root extends from the ground and grabs the knife. It glows a with a faint gree
 (if: $inventory contains &quot;torch&quot;)[Varos reached in his bag and lit the torch he had brought, hoping it would last the journey back, and (link-goto:&quot;forged onward.&quot;, (history:)&#39;s last)]{
 }(else-if: $alnusAid)[He had almost given up when a small light shone on the ground a few feet ahead. He approached cautiously and knelt to inspect the source. It was some kind of mushroom, glowing with a soft, eerie blue light. He looked up to see more and more mushrooms glow , making a path through the woods. Varos smiled, //“Thank you Alnus,”// (link-goto:&quot;and continue on his way.&quot;, (history:)&#39;s last)]{
 }(else:)[He [[forged ahead-&gt;Ending 4. Lost in the dark]], hoping for the best.]
-
-(set: $isDay to false)
-]</tw-passagedata><tw-passagedata pid="93" name="Ending 4. Lost in the dark" tags="darkForest" position="676,8767" size="100,100">The darkness was overwhelming. Varos had lost track of time on his travels through the forest and night overtook the day. The moon’s light was too weak to shine through the canopy above, only vague shapes could be made out in the shadows.
+(set: $isDay to false)]</tw-passagedata><tw-passagedata pid="93" name="Ending 4. Lost in the dark" tags="darkForest" position="676,8767" size="100,100">The darkness was overwhelming. Varos had lost track of time on his travels through the forest and night overtook the day. The moon’s light was too weak to shine through the canopy above, only vague shapes could be made out in the shadows.
 
 He quickly realized the futility of trying to make any progress. He would break an ankle at best, or his neck at worst if he took a bad fall.
 
@@ -1083,7 +1088,7 @@ It was just as he began to think this would be easier than anticipated that Varo
 
 Consulting the map, it looked like skirting the rock face [[to the north-&gt;19. Go North through ravine]] would lead to a ravine. [[Going directly east-&gt;20. Directly East through thicket]] led to more dense woodland.(hidden:)|fathersNote&gt;[ His father had left a note near the ravine. It seems like he favored this route.]
 
-(if: $inventory contains &quot;Father&#39;s map&quot;)[(show: ?fathersNote)]</tw-passagedata><tw-passagedata pid="110" name="Header For Music" tags="header" position="1080,431.66666666666674" size="100,100">{
+(if: $inventory contains &quot;Father&#39;s map&quot;)[(show: ?fathersNote)]</tw-passagedata><tw-passagedata pid="110" name="Header For Music" tags="header" position="1080,431" size="100,100">{
 (if: (passage:)&#39;s name is &quot;1. Intro&quot; or &quot;9. Back to house&quot; or &quot;Ending 1. A triumphant return&quot; or &quot;Ending 2. An uneasy victory&quot; or &quot;Ending 3. Adventure is not so grand&quot; or &quot;Ending 4. Lost in the dark&quot; or &quot;Ending 5. Safe but not sound&quot; or &quot;Ending 6. For whom the bell gnolls&quot;)
 [
     (set: $playHome to true)
